@@ -2,7 +2,7 @@
 
 <header class="header container-fluid">
     <div class="overlay min-vh-100 d-flex flex-column justify-content-center align-items-center">
-    <div class="header__box text-center text-dark">
+    <div class="header__box text-center text-light">
         <img src="img/cross.png" class="logo" alt="">
         <h1 class="display-4">Building a Biblically Faithful,<br> Gospel Sharing, Anglican Church</h1>
         <h2 class="display-5">in Saint-Lazare Québec</h2>
@@ -21,13 +21,89 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          Subscribe to our newsletter
+        <div class="modal-body p-4">
+            <form action="https://sttimothysabc.us10.list-manage.com/subscribe/post?u=1dbdfcb216021105100c9f8f8&amp;id=356368a105" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+              </form>
+          
         </div>
       </div>
     </div>
   </div>
+
 <main class="main container">
+
+    <h2 class="display-3 text-center py-5 my-5">The Vision</h2>
+
+    <div class="row">
+
+        <div class="col-lg-8 col-md-12">
+
+            <h2 class="heading2">{{ .Params.vision_heading1 | safeHTML }}</h2>
+            <p class="pt-2">{{ .Params.vision_text1 | safeHTML }}</p>
+
+            <h2 class="heading2">{{ .Params.vision_heading2 | safeHTML }}</h2>
+            <p class="pt-2">{{ .Params.vision_text2 | safeHTML }}</p>
+
+            <div class="vision_box d-flex flex-row pt-3">
+                <img src="img/cross.png" class="vision_icon" alt="">
+                <h5 class="pl-3 font-weight-normal">{{ .Params.vision_option1 }}</h5>
+            </div>
+
+            <div class="vision_box d-flex flex-row pt-3">
+                <img src="img/cross.png" class="vision_icon" alt="">
+                <h5 class="pl-3 font-weight-normal">{{ .Params.vision_option2 }}</h5>
+            </div>
+
+            <div class="vision_box d-flex flex-row pt-3">
+                <img src="img/cross.png" class="vision_icon" alt="">
+                <h5 class="pl-3 font-weight-normal">{{ .Params.vision_option3 }}</h5>
+            </div>
+
+            <div class="vision_box d-flex flex-row pt-3">
+                <img src="img/cross.png" class="vision_icon" alt="">
+                <h5 class="pl-3 font-weight-normal">{{ .Params.vision_option4 }}</h5>
+            </div>
+
+            <button class="btn btn-primary mt-5" data-toggle="modal" data-target="#exampleModalCenter">Subscribe To Our Newsletter</button>
+
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <img src="img/vision.jpg" alt="" class="vision_img shadow w-100">
+        </div>
+
+    </div>
+</main>
+
+<section class="whoweare">
+
+    <h2 class="display-3 text-center py-5 my-5">Who We Are</h2>
+
+    <div class="row">
+
+        <div class="col-lg-6 col-md-12">
+
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="values container">
     <h2 class="about__heading display-3 text-center py-5 my-5">
         Our Values
     </h2>
@@ -92,5 +168,5 @@
     </div>
 </div>
 </div>
-</main>
+</section>
 {{ end }}

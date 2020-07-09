@@ -24,7 +24,7 @@
 .overlay {
     width: 100%;
     min-height: 100%;
-    background-color: rgba(255, 255, 255, 0.80);
+    background-color: rgba(0, 0, 0, 0.70);
 }
 .logo {
     width: 40px;
@@ -34,9 +34,8 @@
     max-width: 768px;
 }
 #launch {
-    background-color: rgba(255, 255, 255, 0.30);
-    color: black;
-    border: 1px solid black;
+    color: white;
+    font-weight: 700;
 }
 .card-header {
     font-size: 18px;
@@ -47,4 +46,12 @@
 }
 .card-image {
     max-height: 250px !important;
+}
+.heading2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.vision_icon {
+    width: 25px;
+    height: 25px;
 }
