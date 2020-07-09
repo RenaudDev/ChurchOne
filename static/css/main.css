@@ -6,6 +6,14 @@
     background-color:#9b0000;
     border-color: #880303;
 }
+.btn-primary:active {
+    background-color:#9b0000;
+    border-color: #880303;
+}
+.btn-primary:focus {
+    background-color:#9b0000;
+    border-color: #880303;
+}
 .header {
     background-image: url(/img/hero.jpg);
     background-position: center;
@@ -24,6 +32,11 @@
 }
 .header__box {
     max-width: 768px;
+}
+#launch {
+    background-color: rgba(255, 255, 255, 0.30);
+    color: black;
+    border: 1px solid black;
 }
 .card-header {
     font-size: 18px;
