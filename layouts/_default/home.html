@@ -7,7 +7,7 @@
         <h1 class="display-4">Building a Biblically Faithful,<br> Gospel Sharing, Anglican Church</h1>
         <h2 class="display-5">in Saint-Lazare Québec</h2>
         <h3 id="launch" class="p-3 my-3 w-50 m-auto font-weight-normal"></h3>
-        <button class="btn btn-primary w-25" data-toggle="modal" data-target="#exampleModalCenter">Stay Tuned</button>
+        <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Stay Tuned</button>
     </div>
 </div>
 </header>
@@ -24,15 +24,15 @@
         <div class="modal-body p-4">
             <form action="https://sttimothysabc.us10.list-manage.com/subscribe/post?u=1dbdfcb216021105100c9f8f8&amp;id=356368a105" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="exampleInputName">
+                  </div>
+                <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                <button type="submit" class="btn btn-lg btn-primary w-100">Subscribe</button>
               </form>
           
         </div>
@@ -74,7 +74,7 @@
                 <h5 class="pl-3 font-weight-normal">{{ .Params.vision_option4 }}</h5>
             </div>
 
-            <button class="btn btn-primary my-5" data-toggle="modal" data-target="#exampleModalCenter">Subscribe To Our Newsletter</button>
+            <button class="btn btn-lg btn-primary my-5" data-toggle="modal" data-target="#exampleModalCenter">Subscribe To Our Newsletter</button>
 
         </div>
 
@@ -85,21 +85,48 @@
     </div>
 </main>
 
-<section class="whoweare">
+<section class="whoweare container">
 
-    <h2 class="display-3 text-center py-md-3 py-5 my-lg-5">Who We Are</h2>
+    <h2 class="display-3 text-center py-md-3 py-5 my-lg-5">Leadership</h2>
 
-    <div class="row">
-
-        <div class="col-lg-6 col-md-12">
-
+    <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="img/leader1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Jonathan Camire</h4>
+              <h5 class="card-title">Pastor</h5>
+              </div>
+          </div>
         </div>
-
-        <div class="col-lg-6 col-md-12">
-
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="img/leader2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Daniel Endresen</h4>
+                <h5 class="card-title">Pastor & Rector</h5>
+              </div>
+          </div>
         </div>
-
-    </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="img/leader3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Renaud Gagne</h4>
+                <h5 class="card-title">Lay Leader & Deputy Warden</h5>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="img/leader4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Anna-Marie Heron</h4>
+                <h5 class="card-title">Worship Leader</h5>
+              </div>
+          </div>
+        </div>
+      </div>
 
 </section>
 
