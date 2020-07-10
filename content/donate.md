@@ -6,15 +6,18 @@ layout: donate
 ----
 ### Email Transfer
 
-You can send an email transfer of funds from your bank account to Saint-Timothy's Anglican Bible Church (our sending church), *specifying that you would like to donate to Saint-Lazare Bible church*. You will incur the cost your bank charges for this transfer. Please email the security question answer to: givings@messiahchurch.ca
+You can send an email transfer of funds from your bank account to Saint-Timothy's Anglican Bible Church (our sending church), *specifying that you would like to donate to Saint-Lazare Bible church*. You will incur the cost your bank charges for this transfer. Please email the security question answer to: giving@sttimothysabc.org
 
 ### Cheque
 
-Please make cheques payable to “Saint-Timothy Anglican Bible Church” with "Saint-Lazare" in the memo line.  Cheques should be mailed to the address below:
+Please make cheques payable to “Saint-Timothy Anglican Bible Church” with "Saint-Lazare" in the memo line. Send to our Envelope Secretary: 
 
-SAINT TIMOTHY'S  
-ANGLICAN BIBLE CHURCH  
-275 av. Braebrook, Pointe-Claire, QC, H9R 1V9  
+Barrie Fox  
+4484 Kingston St.  
+Pierrefonds,QC  
+H9A 2T6 
+
+Under 3 conditions. REMEMBER send cheques ONLY. DO NOT SEND CASH.
 
 ### Paypal
 
