@@ -22,3 +22,7 @@ Under 3 conditions. REMEMBER send cheques ONLY. DO NOT SEND CASH.
 ### Paypal
 
 Coming Soon
+
+### For more information
+
+Please contact us info@saintlazare.ca if you have any questions or would like to connect with the mission.
