@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <header class="header container-fluid">
     <div class="overlay min-vh-100 d-flex flex-column justify-content-center align-items-center">
     <div class="header__box text-center text-light">
@@ -9,7 +8,11 @@
         <div class="countdown" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2000">
             <h3 id="launch" class="p-3 my-3 w-50 m-auto font-weight-normal"></h3>
         </div>
-        <button class="btn btn-lg btn-primary" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2500" data-toggle="modal" data-target="#exampleModalCenter">Stay Tuned</button>
+        <div class="d-flex flex-row justify-content-center">
+                <button class="btn btn-lg btn-primary mr-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2500" data-toggle="modal" data-target="#exampleModalCenter">Stay Tuned</button>
+                <a href="/donate" class="btn btn-lg btn-primary ml-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2500" data-toggle="modal">Donate</a>
+            </div>
+        </div>
     </div>
 </div>
 </header>
@@ -97,7 +100,7 @@
             <img src="img/leader1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4 class="card-title font-weight-normal">Jonathan Camire</h4>
-              <h5 class="card-title font-weight-normal">Pastor</h5>
+              <h5 class="card-subtitle font-weight-normal">Local Pastor</h5>
               </div>
           </div>
         </div>
@@ -106,7 +109,7 @@
             <img src="img/leader2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title font-weight-normal">Daniel Endresen</h4>
-                <h5 class="card-title font-weight-normal">Pastor & Rector</h5>
+                <h5 class="card-subtitle font-weight-normal">Mentor Pastor & Rector</h5>
               </div>
           </div>
         </div>
@@ -115,7 +118,7 @@
             <img src="img/leader3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title font-weight-normal">Renaud Gagne</h4>
-                <h5 class="card-title font-weight-normal">Lay Leader & Deputy Warden</h5>
+                <h5 class="card-subtitle font-weight-normal">Lay Leader & Deputy Warden</h5>
               </div>
           </div>
         </div>
@@ -124,7 +127,7 @@
             <img src="img/leader4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title font-weight-normal">Anna-Marie Heron</h4>
-                <h5 class="card-title font-weight-normal">Worship Leader</h5>
+                <h5 class="card-subtitle font-weight-normal">Worship Leader</h5>
               </div>
           </div>
         </div>
