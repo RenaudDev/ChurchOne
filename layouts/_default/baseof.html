@@ -17,6 +17,7 @@
     <div id="content">
         {{- block "main" . }}{{- end }}
     </div>
+    {{ template "_internal/google_analytics_async.html" . }}
   </body>
   <footer>{{- partial "footer.html" . }}</footer>
 </html>

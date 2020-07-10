@@ -3,6 +3,7 @@ languageCode = "en-ca"
 title = "Saint-Lazare Bible Church"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 description = "Building a Biblically Faithful, Gospel Sharing, Anglican Church in Saint-Lazare Québec"
+googleAnalytics = "UA-172365322-1"
 
 [params]
     # Schema Information
