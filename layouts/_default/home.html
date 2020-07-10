@@ -8,7 +8,7 @@
         <div class="countdown" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2000">
             <h3 id="launch" class="p-3 my-3 w-50 m-auto font-weight-normal"></h3>
         </div>
-        <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-row justify-content-center header_cta">
                 <button class="btn btn-lg btn-primary mr-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2500" data-toggle="modal" data-target="#exampleModalCenter">Stay Tuned</button>
                 <a href="{{ .Site.BaseURL }}donate" class="btn btn-lg btn-primary ml-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2500" data-toggle="modal">Donate</a>
             </div>
@@ -68,10 +68,10 @@
         <div class="col-lg-8 col-md-12">
 
             <h2 class="heading2">{{ .Params.vision_heading1 | safeHTML }}</h2>
-            <p class="pt-2">{{ .Params.vision_text1 | safeHTML }}</p>
+            <p class="pt-2 main_text">{{ .Params.vision_text1 | safeHTML }}</p>
 
             <h2 class="heading2">{{ .Params.vision_heading2 | safeHTML }}</h2>
-            <p class="pt-2">{{ .Params.vision_text2 | safeHTML }}</p>
+            <p class="pt-2 main_text">{{ .Params.vision_text2 | safeHTML }}</p>
 
             <div class="vision_box d-flex flex-row pt-3" data-aos="fade-right" data-aos-duration="800" data-aos-delay="10">
                 <img src="img/cross.png" class="vision_icon" alt="">
@@ -92,9 +92,9 @@
                 <img src="img/cross.png" class="vision_icon" alt="">
                 <h5 class="pl-3 font-weight-normal">{{ .Params.vision_option4 }}</h5>
             </div>
-
+            <div class="main_cta">
             <button class="btn btn-lg btn-primary my-5" data-toggle="modal" data-target="#exampleModalCenter">Subscribe To Our Newsletter</button>
-
+            </div>
         </div>
 
         <div class="col-lg-4 col-md-12" data-aos="fade-in" data-aos-duration="800">
@@ -157,8 +157,8 @@
 <div class="col-lg-4 col-md-12">
     <div class="card">
         <img src="img/about1.jpg" class="card-img-top card-image" alt="Our Values">
+        <h2 class="card-header">SCRIPTURES</h2>
         <div class="card-body">
-            <h3 class="card-header">SCRIPTURES</h3>
             <p class="card-text">We value the supreme authority of scripture.</p>
         </div>
     </div>
@@ -166,8 +166,8 @@
 <div class="col-lg-4 col-md-12">
     <div class="card">
         <img src="img/about2.jpg" class="card-img-top card-image" alt="Our Values">
+        <h2 class="card-header">PARISH-CENTRED MINISTRY</h2>
         <div class="card-body">
-            <h3 class="card-header">PARISH-CENTRED MINISTRY</h3>
             <p class="card-text">We value equipping parishes to be the focus for ministry and evangelism. </p>
         </div>
     </div>
@@ -175,8 +175,8 @@
 <div class="col-lg-4 col-md-12">
     <div class="card">
         <img src="img/about3.jpg" class="card-img-top card-image" alt="Our Values">
+        <h2 class="card-header">RELATIONSHIPS AND TRANSPARENCY</h2>
         <div class="card-body">
-            <h3 class="card-header">RELATIONSHIPS AND TRANSPARENCY</h3>
             <p class="card-text">We value conducting the business and ministry of the diocese based on healthy Christ-like relationships and transparency. </p>
         </div>
     </div>
@@ -188,8 +188,8 @@
     <div class="col-lg-4 col-md-12">
         <div class="card">
             <img src="img/about4.jpg" class="card-img-top" alt="Our Values">
+            <h2 class="card-header">UNITY</h2>
             <div class="card-body">
-                <h3 class="card-header">UNITY</h3>
                 <p class="card-text">We value walking together with love and respect even when differing on non-essential matters.</p>
             </div>
         </div>
@@ -198,8 +198,8 @@
 <div class="col-lg-4 col-md-12">
     <div class="card">
         <img src="img/about5.jpg" class="card-img-top" alt="Our Values">
+        <h2 class="card-header">ANGLICAN IDENTITY</h2>
         <div class="card-body">
-            <h3 class="card-header">ANGLICAN IDENTITY</h3>
             <p class="card-text">We value nurturing liturgical and sacramental worship in the Anglican way as expressed through the catholic, evangelical, and charismatic streams. </p>
         </div>
     </div>
@@ -207,8 +207,8 @@
 <div class="col-lg-4 col-md-12">
     <div class="card">
         <img src="img/about6.jpg" class="card-img-top" alt="Our Values">
+        <h2 class="card-header">GOVERNANCE</h2>
         <div class="card-body">
-            <h3 class="card-header">GOVERNANCE</h3>
             <p class="card-text">We value being led by shepherd bishops who serve our parishes, province, and the worldwide communion.</p>
         </div>
     </div>
