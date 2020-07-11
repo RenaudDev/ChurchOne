@@ -3,8 +3,7 @@
     <div class="overlay min-vh-100 d-flex flex-column justify-content-center align-items-center">
     <div class="header__box text-center text-light">
         <img src="img/cross.png" class="logo" alt="" data-aos="zoom-in" data-aos-duration="500">
-        <h1 class="display-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">Building a Biblically Faithful,<br> Gospel Sharing, Anglican Church</h1>
-        <h2 class="display-5" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1500">in Saint-Lazare Québec</h2>
+        <h1 class="display-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">{{ .Params.heading }}</h1>
         <div class="countdown" data-aos="fade-up" data-aos-duration="800" data-aos-delay="2000">
             <h3 id="launch" class="p-3 my-3 w-50 m-auto font-weight-normal"></h3>
         </div>
@@ -64,7 +63,7 @@
     <h2 class="display-3 text-center py-md-3 py-5 my-lg-5">The Vision</h2>
 
     <div class="row">
-
+        
         <div class="col-lg-8 col-md-12">
 
             <h2 class="heading2">{{ .Params.vision_heading1 | safeHTML }}</h2>
@@ -114,7 +113,7 @@
             <img src="img/leader1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4 class="card-title font-weight-normal">Jonathan Camire</h4>
-              <h5 class="card-subtitle font-weight-normal">Local Pastor</h5>
+              <h5 class="card-subtitle font-weight-normal">Church Planter & Local Pastor</h5>
               </div>
           </div>
         </div>
@@ -123,7 +122,7 @@
             <img src="img/leader2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title font-weight-normal">Daniel Endresen</h4>
-                <h5 class="card-subtitle font-weight-normal">Mentor Pastor & Rector</h5>
+                <h5 class="card-subtitle font-weight-normal">St-Timothy's Pastor & Rector</h5>
               </div>
           </div>
         </div>
@@ -150,9 +149,14 @@
 </section>
 
 <section class="values container">
-    <h2 class="about__heading display-3 text-center py-md-3 py-5 my-lg-5">
+    <h2 class="about__heading display-3 text-center py-md-3 pt-5 pb-1 my-lg-5">
         Our Values
     </h2>
+    <div class="values_details py-3">
+    <p class="">{{ .Params.values }}</p>
+    <h2>KEY FEATURES OF OUR ANGLICAN IDENTITY</h2>
+    <p class="">{{ .Content }}</p>
+    </div>
 <div class="row gy-5" data-aos="fade-up" data-aos-duration="800">
 <div class="col-lg-4 col-md-12">
     <div class="card">
