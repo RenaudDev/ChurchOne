@@ -1,5 +1,6 @@
 ---
-title: "Homepage"
+title: "Home: Saint-Lazare Bible Church | Church Plant In Saint-Lazare, Qc"
+description: "A Church Plant Is Coming to Saint-Lazare, QC! We are part of a worldwide Gospel-renewal movement within the Anglican communion. Subscribe to our newsletter on our website."
 layout: home
 
 heading: "Building a Biblically Faithful, Gospel-Sharing Church In Saint-Lazare"
