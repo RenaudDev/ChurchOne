@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 ---
-## Politique de Confidentialité
+## PRIVACY POLICY
 
 Effective Date: May 5, 2020
 
