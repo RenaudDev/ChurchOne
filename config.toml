@@ -23,4 +23,4 @@ googleAnalytics = "UA-172365322-1"
     facebookurl = "https://www.facebook.com/SaintLazareAnglican/"
     instagram = "https://instagram.com/"
     logo = "img/cross.png"
-    image = "img/og.png" # Ideal 1200 x 630 for schema + og
+    image = "img/og.jpg" # Ideal 1200 x 630 for schema + og
