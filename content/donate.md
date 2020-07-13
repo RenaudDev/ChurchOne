@@ -1,5 +1,6 @@
 ---
-title: "Donate"
+title: "Donate to Saint-Lazare Bible Church | Church Plant In Saint-Lazare, Qc"
+description: "A Church Plant Is Coming to Saint-Lazare, QC! Here are the informations if you are called to donate."
 layout: donate
 ---
 ## Donation Options
@@ -17,7 +18,6 @@ Barrie Fox
 Pierrefonds,QC  
 H9A 2T6 
 
-Under 3 conditions. REMEMBER send cheques ONLY. DO NOT SEND CASH.
 
 ### Paypal
 
