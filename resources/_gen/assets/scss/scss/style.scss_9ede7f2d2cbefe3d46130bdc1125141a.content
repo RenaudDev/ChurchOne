@@ -65,7 +65,7 @@ a {
   margin-bottom: 10px; }
 
 .card {
-  min-height: 430px; }
+  min-height: 480px; }
 
 .heading2 {
   font-size: 2rem;
