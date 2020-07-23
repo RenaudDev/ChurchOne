@@ -1,11 +1,7 @@
 .header_single {
-        background-color: $primary;
-        margin: 0;
-        padding: 0;
-        background-image: url(/img/hero.jpg);
-}
-.header_single--box {
-    padding: 100px 0;
+        height: 400px;
+        background-position: bottom;
+        background-image: url(/img/blog.jpg);
 }
 .content_single {
     a {
