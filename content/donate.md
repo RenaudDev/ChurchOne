@@ -1,5 +1,5 @@
 ---
-title: "Donate to Saint-Lazare Bible Church | Church Plant In Saint-Lazare, Qc"
+title: "Donate to the Church Plant"
 description: "A Church Plant Is Coming to Saint-Lazare, QC! Here are the informations if you are called to donate."
 layout: donate
 ---
