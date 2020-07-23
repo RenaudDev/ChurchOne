@@ -6,8 +6,8 @@ description: Stay up to date with the church plant of Saint-Lazare Bible Church.
 ![Jonathan Camire's photo](/img/jonathan.jpg "Jonathan Camire")
 
 #### From the desk of Jonathan Camiré
-
-### Greetings!
+  
+#### Greetings!
 
 \
 I am excited to tell you Jesus lives and reigns with God the Father and the Holy Spirit!\
