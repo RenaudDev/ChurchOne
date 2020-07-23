@@ -3,10 +3,10 @@ title: Saint-Lazare Church Plant Newsletter 01
 date: 2020-07-23T20:38:02.423Z
 description: Stay up to date with the church plant of Saint-Lazare Bible Church.
 ---
-![Jonathan Camire's photo](/img/jonathan.jpg "Jonathan Camire")
+![Jonathan Camire's photo]( "Jonathan Camire")
 
 #### From the desk of Jonathan Camiré
-  
+
 #### Greetings!
 
 \
