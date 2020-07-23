@@ -1,5 +1,5 @@
 ---
-title: "Homepage: Saint-Lazare Bible Church"
+title: "Homepage"
 description: "A Church Plant Is Coming to Saint-Lazare, QC! We are part of a worldwide Gospel-renewal movement within the Anglican communion. Subscribe to our newsletter on our website."
 layout: home
 

@@ -115,7 +115,8 @@ a {
 .header_single {
   background-color: #8a0303;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-image: url(/img/hero.jpg); }
 
 .header_single--box {
   padding: 100px 0; }
