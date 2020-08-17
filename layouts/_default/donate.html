@@ -15,5 +15,7 @@
 <main class="container py-5 content_single">
     {{- partial "breadcrumb.html" . }}
     {{ .Content }}
+    
+    <a href="{{ .Site.BaseURL }}img/pad.pdf" class="btn btn-lg btn-primary text-white">Download PAD Agreement</a>
 </main>
 {{ end }}
