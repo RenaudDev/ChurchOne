@@ -6,7 +6,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [[redirects]]
-  from = "https://www.saintlazare.ca"
+  from = "https://www.saintlazare.ca/survey"
   to = "https://us10.list-manage.com/survey?u=1dbdfcb216021105100c9f8f8&id=8f69ea3f15"
   status = 301
   force = true #COMMENT: ensure that we always redirect
